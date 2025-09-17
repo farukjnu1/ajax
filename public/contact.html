@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
+            });
+        });
+    </script>
+    <style type="text/css">
+        #panel, #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bangladesh</h1>
+        <h2><a href="index.html">Home</a>  || <a href="history.html">History of  Bangladesh</a>||<a href="natural.html">Natural Bangladesh</a> || <a href="contact.html">Contact Us</a></h2>
+
+    </header>
+    <div id="container">
+        <nav>
+            <h3>Amar Bangla</h3>
+            <a href="index.html">Home</a>
+            <a href="history.html">History of Bangladesh</a>
+            <a href="natural.html">Natural Bangladesh</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <section>
+            <article>
+                <header>
+                    <h1>Contact for more information</h1>
+                </header>
+                <p><a href="http://www.bangladesh.gov.bd/">http://www.bangladesh.gov.bd/</a></p>
+                <footer>
+                    <h2>&nbsp;</h2>
+                </footer>
+            </article>
+
+        </section>
+        <aside>
+            <div id="flip">News of Bangla</div>
+            <div id="panel">17 more body recovered, death toll new 405</div>
+
+        </aside>
+        <footer>
+            <h2>copyright by amarbagla.com</h2>
+        </footer>
+    </div>
+</body>
+</html>
