@@ -4,6 +4,7 @@ A simple Node.js + Express application demonstrating how to handle AJAX requests
 This project is great for learning how to send and receive asynchronous data in real time using modern web techniques.
 
 
+
 🚀 Features
 
 ⚙️ Backend built with Express.js
@@ -17,6 +18,7 @@ This project is great for learning how to send and receive asynchronous data in 
 🧠 Ideal for learning client–server communication in Node.js
 
 
+
 🧩 Technologies Used
 | Component           | Description                        |
 | ------------------- | ---------------------------------- |
@@ -25,6 +27,7 @@ This project is great for learning how to send and receive asynchronous data in 
 | **Frontend**        | HTML, JavaScript, AJAX / Fetch API |
 | **Package Manager** | npm                                |
 | **IDE**             | Visual Studio Code                 |
+
 
 
 🧠 Future Enhancements
